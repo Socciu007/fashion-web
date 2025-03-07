@@ -1,10 +1,8 @@
 import "./style.scss"
 import { mockData } from "../../../mock/mock-data"
 import { Swiper, SwiperSlide } from "swiper/react";
-import "swiper/css"
-import "swiper/css/navigation"
-import "swiper/css/pagination"
 import { Navigation, Pagination, Autoplay } from "swiper/modules";
+import 'swiper/swiper-bundle.css';
 import video1 from "../../assets/videos/video1.mp4"
 import video2 from "../../assets/videos/video2.mp4"
 import video3 from "../../assets/videos/video3.mp4"
