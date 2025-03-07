@@ -1,5 +1,5 @@
 import { Link } from "react-router-dom";
-import logo from "../../assets/logo.png";
+import logo from "../../assets/logo.jpeg";
 import TabComponent from "../TabComponent";
 import type { TabsProps } from "antd";
 import "./style.scss";
@@ -8,7 +8,7 @@ const HeaderComponent = () => {
   const items: TabsProps["items"] = [
     {
       key: "1",
-      label: "Home",
+      label: "Home"
     },
     {
       key: "2",

@@ -1,22 +1,31 @@
 .header-component {
+  background-color: #fff;
   display: flex;
   flex-direction: column;
   max-width: 1280px;
   margin: 0 auto;
   justify-content: center;
   align-items: center;
+  padding: 0 6px;
   &__menu {
     display: flex;
     justify-content: space-between;
     align-items: center;
     width: 100%;
-    margin: 6px 0;
     &-item {
       a {
         color: #000;
         &:hover {
           text-decoration: underline;
         }
+      }
+    }
+  }
+
+  &__logo {
+    &-item {
+      img {
+        height: 65px;
       }
     }
   }
