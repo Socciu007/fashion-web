@@ -3,8 +3,10 @@ import logo from "../../assets/logo.jpeg";
 import TabComponent from "../TabComponent";
 import type { TabsProps } from "antd";
 import "./style.scss";
+import { useNavigate } from "react-router-dom";
 
 const HeaderComponent = () => {
+  const navigate = useNavigate()
   const items: TabsProps["items"] = [
     {
       key: "1",
@@ -28,7 +30,7 @@ const HeaderComponent = () => {
       </div>
       <div className="header-component__logo">
         <div className="header-component__logo-item">
-          <img src={logo} alt="img-logo" />
+          <img style={{ cursor: "pointer" }} src={logo} alt="img-logo" onClick={() => navigate("/")} />
         </div>
       </div>
       <div className="header-component__type">
