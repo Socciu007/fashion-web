@@ -1,7 +1,8 @@
-import "./App.scss";
-import HeaderComponent from "./components/HeaderComponent";
-import { routes } from "./routes";
-import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
+import "./App.scss"
+import HeaderComponent from "./components/HeaderComponent"
+import { routes } from "./routes"
+import { BrowserRouter as Router, Routes, Route } from "react-router-dom"
+import FooterComponent from "./components/FooterComponent"
 
 function App() {
   return (
@@ -16,7 +17,9 @@ function App() {
                   <HeaderComponent />
                 </header>
                 <PageComponent />
-                <footer className="footer"></footer>
+                <footer className="footer">
+                  <FooterComponent />
+                </footer>
               </div>
             );
           };
