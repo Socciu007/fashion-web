@@ -25,12 +25,12 @@ export const mockData = {
             image: [
                 {
                     id: 1,
-                    url: "/assets/images/product-21.avif",
+                    url: "/src/assets/images/product-21.avif",
                     idSize: 1,
                 },
                 {
                     id: 2,
-                    url: "/assets/images/product-22.avif",
+                    url: "/src/assets/images/product-22.avif",
                     idSize: 2,
                 }
             ]
@@ -59,17 +59,17 @@ export const mockData = {
             image: [
                 {
                     id: 1,
-                    url: "/assets/images/bag-11.avif",
+                    url: "/src/assets/images/bag-11.avif",
                     idSize: 1,
                 },
                 {
                     id: 2,
-                    url: "/assets/images/bag-12.avif",
+                    url: "/src/assets/images/bag-12.avif",
                     idSize: 1,
                 },
                 {
                     id: 3,
-                    url: "/assets/images/bag-13.avif",
+                    url: "/src/assets/images/bag-13.avif",
                     idSize: 1,
                 }
             ]
@@ -285,18 +285,18 @@ export const mockData = {
             image: [
                 {
                     id: 1,
-                    url: "/assets/images/bag-31.avif",
+                    url: "/src/assets/images/bag-31.avif",
                     idSize: 1,
                 },
                 {
                     id: 2,
-                    url: "/assets/images/bag-32.avif",
+                    url: "/src/assets/images/bag-32.avif",
                     idSize: 1,
                 },
                 {
                     id: 3,
                     isFirst: true,
-                    url: "/assets/images/bag-33.webp",
+                    url: "/src/assets/images/bag-33.webp",
                     idSize: 1,
                 }
             ]

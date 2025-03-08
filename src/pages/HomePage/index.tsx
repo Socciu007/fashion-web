@@ -7,6 +7,7 @@ import video1 from "../../assets/videos/video1.mp4"
 import video2 from "../../assets/videos/video2.mp4"
 import video3 from "../../assets/videos/video3.mp4"
 import { useNavigate } from "react-router-dom"
+import { getImageUrl } from "../../utils/imageUtils"
 
 const HomePage = () => {
   const navigate = useNavigate()
@@ -36,7 +37,7 @@ const HomePage = () => {
               <div className="product-slide">
                 <div className="product-slide__wrapper">
                   <div className="product-slide-image">
-                    <img src={product.image[0].url} height={200} width={200} alt={product.name} onClick={() => navigate(`/product/${product.id}`)} />
+                    <img src={getImageUrl(product.image[0].url)} height={200} width={200} alt={product.name} onClick={() => navigate(`/product/${product.id}`)} />
                   </div>
                   <div className="product-slide-detail">
                     <h3 onClick={() => navigate(`/product/${product.id}`)}>{product.name}</h3>
