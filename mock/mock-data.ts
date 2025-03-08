@@ -94,12 +94,12 @@ export const mockData = {
             image: [
                 {
                     id: 1,
-                    url: "/assets/images/bracelet-11.png",
+                    url: "/src/assets/images/bracelet-11.png",
                     idSize: 1,
                 },
                 {
                     id: 2,
-                    url: "/assets/images/bracelet-12.png",
+                    url: "/src/assets/images/bracelet-12.png",
                     idSize: 1,  
                 }
             ]
@@ -128,18 +128,18 @@ export const mockData = {
             image: [
                 {
                     id: 1,
-                    url: "/assets/images/bag-21.png",
+                    url: "/src/assets/images/bag-21.png",
                     idSize: 1,
                 },
                 {
                     id: 2,
                     isFirst: true,
-                    url: "/assets/images/bag-21x.png",
+                    url: "/src/assets/images/bag-21x.png",
                     idSize: 1,
                 },
                 {
                     id: 3,
-                    url: "/assets/images/bag-22.png",
+                    url: "/src/assets/images/bag-22.png",
                     idSize: 1,
                 }
             ]
@@ -175,7 +175,7 @@ export const mockData = {
             image: [
                 {
                     id: 1,
-                    url: "/assets/images/perfume-11.png",
+                    url: "/src/assets/images/perfume-11.png",
                     idSize: 1,
                 }
             ]
@@ -216,12 +216,12 @@ export const mockData = {
             image: [
                 {
                     id: 1,
-                    url: "/assets/images/perfume-21.png",
+                    url: "/src/assets/images/perfume-21.png",
                     idSize: 2,
                 },
                 {
                     id: 2,
-                    url: "/assets/images/perfume-22.png",
+                    url: "/src/assets/images/perfume-22.png",
                     idSize: 1,
                 }
             ]
@@ -251,12 +251,12 @@ export const mockData = {
             image: [
                 {
                     id: 1,
-                    url: "/assets/images/wallet-11.png",
+                    url: "/src/assets/images/wallet-11.png",
                     idSize: 1,
                 },
                 {
                     id: 2,
-                    url: "/assets/images/wallet-12.png",
+                    url: "/src/assets/images/wallet-12.png",
                     idSize: 1,
                 }
             ]
