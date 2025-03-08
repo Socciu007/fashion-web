@@ -3,9 +3,6 @@ import { mockData } from "../../../mock/mock-data"
 import { Swiper, SwiperSlide } from "swiper/react";
 import { Navigation, Pagination, Autoplay } from "swiper/modules";
 import 'swiper/swiper-bundle.css';
-import video1 from "../../assets/videos/video1.mp4"
-import video2 from "../../assets/videos/video2.mp4"
-import video3 from "../../assets/videos/video3.mp4"
 import { useNavigate } from "react-router-dom"
 import { getImageUrl } from "../../utils/imageUtils"
 
@@ -55,9 +52,9 @@ const HomePage = () => {
             <h2>Khám phá ngay</h2>
           </div>
           <div className="home-section-video">
-            <video playsInline src={video1} height={450} controls/>
-            <video playsInline src={video2} height={450} controls/>
-            <video playsInline src={video3} height={450} controls/>
+            <video playsInline src={'/assets/videos/video1.mp4'} height={450} controls/>
+            <video playsInline src={'/assets/videos/video2.mp4'} height={450} controls/>
+            <video playsInline src={'/assets/videos/video3.mp4'} height={450} controls/>
           </div>
         </div>
       </section>

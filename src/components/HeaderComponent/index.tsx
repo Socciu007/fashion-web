@@ -1,5 +1,4 @@
 import { Link } from "react-router-dom";
-import logo from "../../assets/logo.jpeg";
 import TabComponent from "../TabComponent";
 import type { TabsProps } from "antd";
 import "./style.scss";
@@ -30,7 +29,7 @@ const HeaderComponent = () => {
       </div>
       <div className="header-component__logo">
         <div className="header-component__logo-item">
-          <img style={{ cursor: "pointer" }} src={logo} alt="img-logo" onClick={() => navigate("/")} />
+          <img style={{ cursor: "pointer" }} src={'/assets/logo.jpeg'} alt="img-logo" onClick={() => navigate("/")} />
         </div>
       </div>
       <div className="header-component__type">
