@@ -25,12 +25,12 @@ export const mockData = {
             image: [
                 {
                     id: 1,
-                    url: "/src/assets/images/product-21.avif",
+                    url: "/assets/images/product-21.avif",
                     idSize: 1,
                 },
                 {
                     id: 2,
-                    url: "/src/assets/images/product-22.avif",
+                    url: "/assets/images/product-22.avif",
                     idSize: 2,
                 }
             ]
@@ -59,17 +59,17 @@ export const mockData = {
             image: [
                 {
                     id: 1,
-                    url: "/src/assets/images/bag-11.avif",
+                    url: "/assets/images/bag-11.avif",
                     idSize: 1,
                 },
                 {
                     id: 2,
-                    url: "/src/assets/images/bag-12.avif",
+                    url: "/assets/images/bag-12.avif",
                     idSize: 1,
                 },
                 {
                     id: 3,
-                    url: "/src/assets/images/bag-13.avif",
+                    url: "/assets/images/bag-13.avif",
                     idSize: 1,
                 }
             ]
@@ -94,12 +94,12 @@ export const mockData = {
             image: [
                 {
                     id: 1,
-                    url: "/src/assets/images/bracelet-11.avif",
+                    url: "/assets/images/bracelet-11.avif",
                     idSize: 1,
                 },
                 {
                     id: 2,
-                    url: "/src/assets/images/bracelet-12.avif",
+                    url: "/assets/images/bracelet-12.avif",
                     idSize: 1,  
                 }
             ]
@@ -128,18 +128,18 @@ export const mockData = {
             image: [
                 {
                     id: 1,
-                    url: "/src/assets/images/bag-21.avif",
+                    url: "/assets/images/bag-21.avif",
                     idSize: 1,
                 },
                 {
                     id: 2,
                     isFirst: true,
-                    url: "/src/assets/images/bag-21x.avif",
+                    url: "/assets/images/bag-21x.avif",
                     idSize: 1,
                 },
                 {
                     id: 3,
-                    url: "/src/assets/images/bag-22.avif",
+                    url: "/assets/images/bag-22.avif",
                     idSize: 1,
                 }
             ]
@@ -175,7 +175,7 @@ export const mockData = {
             image: [
                 {
                     id: 1,
-                    url: "/src/assets/images/perfume-11.avif",
+                    url: "/assets/images/perfume-11.avif",
                     idSize: 1,
                 }
             ]
@@ -216,12 +216,12 @@ export const mockData = {
             image: [
                 {
                     id: 1,
-                    url: "/src/assets/images/perfume-21.avif",
+                    url: "/assets/images/perfume-21.avif",
                     idSize: 2,
                 },
                 {
                     id: 2,
-                    url: "/src/assets/images/perfume-22.avif",
+                    url: "/assets/images/perfume-22.avif",
                     idSize: 1,
                 }
             ]
@@ -251,12 +251,12 @@ export const mockData = {
             image: [
                 {
                     id: 1,
-                    url: "/src/assets/images/wallet-11.avif",
+                    url: "/assets/images/wallet-11.avif",
                     idSize: 1,
                 },
                 {
                     id: 2,
-                    url: "/src/assets/images/wallet-12.avif",
+                    url: "/assets/images/wallet-12.avif",
                     idSize: 1,
                 }
             ]
@@ -285,18 +285,18 @@ export const mockData = {
             image: [
                 {
                     id: 1,
-                    url: "/src/assets/images/bag-31.avif",
+                    url: "/assets/images/bag-31.avif",
                     idSize: 1,
                 },
                 {
                     id: 2,
-                    url: "/src/assets/images/bag-32.avif",
+                    url: "/assets/images/bag-32.avif",
                     idSize: 1,
                 },
                 {
                     id: 3,
                     isFirst: true,
-                    url: "/src/assets/images/bag-33.webp",
+                    url: "/assets/images/bag-33.webp",
                     idSize: 1,
                 }
             ]
