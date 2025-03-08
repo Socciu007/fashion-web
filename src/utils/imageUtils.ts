@@ -4,5 +4,5 @@ export const getImageUrl = (imagePath: string) => {
     return imagePath;
   }
   // Nếu không, thêm prefix /assets/
-  return `/assets/${imagePath.replace(/^\//, '')}`;
+  return `${imagePath.replace(/^\//, '')}`;
 }; 
